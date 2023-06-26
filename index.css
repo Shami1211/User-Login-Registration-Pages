@@ -1,0 +1,40 @@
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard h1 {
+    color: #800080;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .dashboard a:hover {
+    background-color: #4b004b;
+  }
+  
